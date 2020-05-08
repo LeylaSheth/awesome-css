@@ -42,7 +42,7 @@ body {
   }
 }
 
-.animate {
+#chart .animate#line {
   animation: 3s animate-line linear;
   animation-fill-mode: forwards;
   animation-delay: 0.3s;
