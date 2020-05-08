@@ -6,7 +6,7 @@
 
 ## SVGchart
 
-用 SVG 动态绘制股票折线图，cssSVG 的运用，原生 dom 对 dom 元素的操作
+用 SVG 动态绘制股票折线图，cssSVG 的运用，原生 js 对 dom 元素的操作
 
 ## splitscreen
 
