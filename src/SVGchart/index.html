@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>SVG Chart</title>
+</head>
+
+<body>
+  <!-- 左上角坐标(0,0)，宽200px 高100px，图标内部的相对单位-->
+  <svg viewbox="0 0 200 100" id="chart">
+
+  <g transform="translate(0,100) scale(1,-1)" id="path-container"> 
+<!--   反转   -->
+    <!-- d="M"表示移动，然后写入坐标   -->    
+    <path fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" id="line" ></path>
+  </g>
+  <text text-anchor="middle" alignment-baseline="middle" x="100" y="50" class="loading">
+    Loading...
+  </text>
+</svg>
+  <script src="./index.js"></script>
+</body>
+
+</html>
